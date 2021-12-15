@@ -1,0 +1,129 @@
+.wrapper{
+    text-align: center;
+}
+.wrapper__heading{
+    font-size: 40px;
+    color: #0A033C;
+}
+.wrapper__text{
+    font-size: 28px;
+    color: #5D5A6F;
+}
+.wrapper__link{
+    text-decoration: none;
+    background-color: #9C4DF4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.wrapper__list{
+    width: 750px;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -130px;
+}
+.wrapper__item{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media(max-width: 1140px){
+    .wrapper__image{
+        width: 950px;
+    }
+    .wrapper__text{
+        font-size: 20px;
+    }
+}
+@media(max-width: 940px){
+    .wrapper__image{
+        width: 850px;
+    }
+}
+@media(max-width: 840px){
+    .wrapper__image{
+        width: 750px;
+    }
+    .wrapper__list{
+        display: block;
+        width: 650px;
+    }
+    .wrapper__item{
+        width: 400px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 740px){
+    .wrapper__image{
+        width: 650px;
+    }
+    .wrapper__list{
+        width: 530px;
+    }
+}
+@media(max-width: 640px){
+    .wrapper{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .wrapper__image{
+        width: 550px;
+    }
+    .wrapper__list{
+        display: block;
+        width: 430px;
+    }
+    .wrapper__item{
+        width: 300px;
+        padding: 5px 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 540px){
+    .wrapper{
+        margin: 0 0 0 60px;
+    }
+    .wrapper__image{
+        width: 450px;
+    }
+    .wrapper__list{
+        width: 330px;
+        top: 30px;
+        right: 20px;
+    }
+    .wrapper__item{
+        width: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 440px){
+    .wrapper{
+        margin: 0 auto;
+        position: relative;
+        left: 100px;
+    }
+    .wrapper__image{
+        width: 350px;
+    }
+    .wrapper__list{
+        width: 250px;
+    }
+    .wrapper__item{
+        width: 200px;
+        padding: 5px 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
