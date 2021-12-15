@@ -1,6 +1,6 @@
 import './Main.css';
 import React from 'react';
-import Arrow from '../../Assets/SVG/Arrow.svg';
+// import Arrow from '../../Assets/SVG/Arrow.svg';
 import Search from '../../Assets/SVG/Search.svg';
 import ImagePerson from '../../Assets/Images/ImagePerson.png';
 

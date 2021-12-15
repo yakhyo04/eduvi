@@ -3,7 +3,6 @@ import React, {useState} from 'react';
 import Eduvi from '../../Assets/Images/eduvi.png';
 import Cart from '../../Assets/SVG/Cart.svg';
 import Account from '../../Assets/SVG/Account.svg';
-import Menu from '../../Assets/SVG/Menu.svg';
 
 import { NavLink } from 'react-router-dom';
 
@@ -46,12 +45,12 @@ const Header = () => {
                     </li>
                    <li className="toggle__item"><NavLink to="/home" className='toggle__link'>Home</NavLink></li>
                    <li className="toggle__item"><NavLink to="/eduvi-shop" className='toggle__link'>Eduvi shop</NavLink></li>
-                   <li className="toggle__item"><a className='toggle__link' href="#">Eduvi Courses</a></li>
-                   <li className="toggle__item"><a className='toggle__link' href="#">Eduvi Courses Details</a></li>
-                   <li className="toggle__item"><a className='toggle__link' href="#">Eduvi Pricing</a></li>
-                   <li className="toggle__item"><a className='toggle__link' href="#">Eduvi Join As Teacher</a></li>
-                   <li className="toggle__item"><a className='toggle__link' href="#">Eduvi Mentors</a></li>
-                   <li className="toggle__item"><a className='toggle__link' href="#">Eduvi Single Mentors</a></li>
+                   <li className="toggle__item"><NavLink to="/eduvi-courses" className='toggle__link' >Eduvi Courses</NavLink></li>
+                   <li className="toggle__item"><NavLink to="/eduvi-courses-details" className='toggle__link'>Eduvi Courses Details</NavLink></li>
+                   <li className="toggle__item"><NavLink to="/eduvi-pricing" className='toggle__link'>Eduvi Pricing</NavLink></li>
+                   <li className="toggle__item"><NavLink to="/eduvi-join" className='toggle__link'>Eduvi Join As Teacher</NavLink></li>
+                   <li className="toggle__item"><NavLink to="/eduvi-mentors" className='toggle__link'>Eduvi Mentors</NavLink></li>
+                   <li className="toggle__item"><NavLink to="/eduvi-single" className='toggle__link' href="#">Eduvi Single Mentors</NavLink></li>
                </ul>
               
                : null 
